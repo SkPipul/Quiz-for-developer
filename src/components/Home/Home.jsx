@@ -7,7 +7,8 @@ const Home = () => {
     const loaderData = previousData.data;
     console.log(loaderData);
     return (
-        <div>
+        <div className='container'>
+            <h1 className='my-5 text-success fw-bold'>You can improve your learning by doing this simple quiz which is help to grow your basic knowledge</h1>
             {
                 loaderData.map(data => <Quiz
                 key={data.id}
