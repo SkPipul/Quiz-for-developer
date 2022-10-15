@@ -1,0 +1,14 @@
+.logo img{
+    width: 500px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .logo img{
+        width: 200px;
+    }
+        .logo-item{
+            flex-direction: column;
+        }
+}

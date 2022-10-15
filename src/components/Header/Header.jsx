@@ -19,7 +19,7 @@ function Header() {
                     >
                         <div className='text-danger'>
                             <Link className='text-primary text-decoration-none mx-4' to='/home'>Home</Link>
-                            <Link className='text-primary text-decoration-none mx-4' to='/subtitles'>Charts</Link>
+                            <Link className='text-primary text-decoration-none mx-4' to='/charts'>Charts</Link>
                             <Link className='text-primary text-decoration-none mx-4' to='/blog'>Blog</Link>
                         </div>
 

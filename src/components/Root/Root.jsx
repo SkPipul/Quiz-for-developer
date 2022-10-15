@@ -4,6 +4,7 @@ import ErrorPage from "../ErrorPage/ErrorPage";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
 import QuizData from "../QuizData/QuizData";
+import Chart from "../Chart/Chart"
 
 const router = createBrowserRouter([
     {
@@ -30,7 +31,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/blog',
-                element: <Blog></Blog>
+                element: <Blog></Blog>,
+            },
+            {
+                path: 'charts',
+                element: <Chart></Chart>,
+                // loader: () => fetch('https://openapi.programming-hero.com/api/quiz')
             }
         ]
     }
