@@ -33,7 +33,7 @@ const QuizDetails = ({quizAll, index}) => {
     return (
         <div className='container my-5'>
             <h4><span className='text-primary'>Q:{index + 1}</span> {question}</h4>
-            {/* <button onClick={handleAnswer}>show ans</button> */}
+            <i onClick={handleAnswer} class="fa-solid fa-eye my-2"></i>
             <ToastContainer />
             {
                 options.map(option => <Option
